@@ -49,14 +49,7 @@ START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
-        ]]
-    )
-HELP_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
-        ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Support Group', url='https://telegram.me/Nidusha_Bots')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -127,6 +120,11 @@ def echo(client, message):
         [InlineKeyboardButton("Myanmar", callback_data='my'),
          InlineKeyboardButton("Indonesian", callback_data='id'),
          InlineKeyboardButton("German", callback_data='de')
+         [
+        InlineKeyboardButton("Sinhala", callback_data='si'),
+        InlineKeyboardButton("English", callback_data='en'),
+        InlineKeyboardButton("",callback_data='')
+        ],
         ]
         
     ]
