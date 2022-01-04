@@ -1,0 +1,1 @@
+# Nidusha-Translate-Bot
